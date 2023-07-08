@@ -3,34 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Finance Ledger</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Modern Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <a href="" class="logo">
-        <img src="./img/logo.svg" alt="logo" class="logo-img" />
-        <span class="logo-accent">Finance</span> Ledger
-      </a>
-      <nav class="nav">
-        <ul class="nav list">
-          <li class="nav-item">
-            <a href="" class="nav-link link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link link">Cases</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link link">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href="" class="logo link">
+          <img src="./img/logo.svg" alt="logo" class="logo-img" />
+          <span class="logo-accent">Finance</span>&nbsp;Ledger
+        </a>
+        <nav class="nav">
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="" class="nav-link link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Cases</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="banner">
@@ -56,56 +74,58 @@
         <a href="" class="link link--read">Read More</a>
       </section>
       <section class="cases-section">
-        <p class="section-subtitle">This is what we do</p>
-        <h2 class="cases-title">Business Cases</h2>
-        <p class="section-second-subtitle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-        <ul class="cases-list">
-          <li class="cases-list-item">
-            <img
-              src="./img/cases-images/cases-1.jpg"
-              alt="Our activities"
-              class="cases-list-img"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./img/cases-images/cases-2.jpg"
-              alt="Our activities"
-              class="cases-list-img"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./img/cases-images/cases-3.jpg"
-              alt="Our activities"
-              class="cases-list-img"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./img/cases-images/cases-4.jpg"
-              alt="Our activities"
-              class="cases-list-img"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./img/cases-images/cases-5.jpg"
-              alt="Our activities"
-              class="cases-list-img"
-            />
-          </li>
-          <li class="cases-list-item">
-            <img
-              src="./img/cases-images/cases-6.jpg"
-              alt="Our activities"
-              class="cases-list-img"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <p class="section-subtitle">This is what we do</p>
+          <h2 class="cases-title">Business Cases</h2>
+          <p class="section-second-subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <ul class="cases-list">
+            <li class="cases-list-item">
+              <img
+                src="./img/cases-images/cases-1.jpg"
+                alt="Our activities"
+                class="cases-list-img"
+              />
+            </li>
+            <li class="cases-list-item">
+              <img
+                src="./img/cases-images/cases-2.jpg"
+                alt="Our activities"
+                class="cases-list-img"
+              />
+            </li>
+            <li class="cases-list-item">
+              <img
+                src="./img/cases-images/cases-3.jpg"
+                alt="Our activities"
+                class="cases-list-img"
+              />
+            </li>
+            <li class="cases-list-item">
+              <img
+                src="./img/cases-images/cases-4.jpg"
+                alt="Our activities"
+                class="cases-list-img"
+              />
+            </li>
+            <li class="cases-list-item">
+              <img
+                src="./img/cases-images/cases-5.jpg"
+                alt="Our activities"
+                class="cases-list-img"
+              />
+            </li>
+            <li class="cases-list-item">
+              <img
+                src="./img/cases-images/cases-6.jpg"
+                alt="Our activities"
+                class="cases-list-img"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="blog-section">
         <p class="subtitle">April 16 2020</p>
