@@ -59,9 +59,16 @@ p {
 }
 /*! ------------ HEADER ------------ */
 .page-header {
-  /* background-color: transparent; */
-  background-color: #2a292c;
-  /* position: sticky; */
+  /* background-color: #2a292c; */
+  position: fixed;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  );
+  left: 0;
+  right: 0;
+  /* width: 100%; */
 }
 
 .page-header .container {
@@ -80,7 +87,7 @@ p {
 }
 
 .logo-img {
-  margin-right: 22px;
+  margin-right: 10px;
   width: 40px;
 }
 
@@ -104,9 +111,13 @@ p {
 /*! ------------ MAIN ------------ */
 
 .hero {
-  background-color: #28a745;
+  background-color: #2a292c;
+  background-image: url('../img/hero-bg.jpg');
   text-align: center;
   padding: 280px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-title {
